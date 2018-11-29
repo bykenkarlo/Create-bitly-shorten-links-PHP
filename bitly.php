@@ -1,3 +1,5 @@
+<!-- Login your bitly acount. Go to Settings > Advance Settings > API Support. Copy the LOGIN and API KEY -->
+
 <?php 
 	$longUrl = 'https://kenkarlo.com';
 	$url  = "http://api.bitly.com/v3/shorten?login=USERNAME&apiKey=API_KEY&longUrl=$longUrl&format=txt";
